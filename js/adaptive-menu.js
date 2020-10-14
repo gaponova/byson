@@ -1,15 +1,35 @@
 $(function () {
 
 	$('.menuToggle').on('click', function () {
-		$('.main-nav').slideToggle(500, function () {
+		$('.header-menu').slideToggle(500, function () {
 			if ($(this).css('display') === 'none') {
 				$(this).removeAttr('style');
 			}
 		});
+	});
 
-		// Спрятать мобильное меню после клика на пункте
-		$('.main-nav__link').on('click', function () {
-			$('.main-nav').hide(500);
+	$('.submenuToggle, .header-menu__link1').on('click', function () {
+		$('.header-submenu').slideToggle(500, function () {
+			if ($(this).css('display') === 'none') {
+				$(this).removeAttr('style');
+			}
 		});
 	});
+
+	$('.submenuToggle2, .header-menu__link2').on('click', function () {
+		$('.header-submenu2').slideToggle(500, function () {
+			if ($(this).css('display') === 'none') {
+				$(this).removeAttr('style');
+			}
+		});
+	});
+
+	$('.submenuToggle3, .header-menu__link3').on('click', function () {
+		$('.header-submenu3').slideToggle(500, function () {
+			if ($(this).css('display') === 'none') {
+				$(this).removeAttr('style');
+			}
+		});
+	});
+
 });

@@ -20,16 +20,15 @@
   <!-- Google Fonts
       ============================================ -->
   <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap"
     rel="stylesheet">
 
   <!-- style CSS
           ============================================ -->
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/animate.css" />
   <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" />
+
   <link rel="stylesheet" href="css/style.css">
 
   <title>Byson</title>
@@ -37,12 +36,76 @@
 
 <body>
 
+  <header>
+    <div class="header-top">
+      <div class="navigation container">
+        <div class="logo">
+          <a href="#"><img src="https://jpegshare.net/images/42/3f/423f5d2b7d1942f05aa8de0135cd1bcc.png" alt="logo"
+              title="Electrician"></a>
+        </div>
+        <nav>
+          <div class="menuToggle"><img src="https://jpegshare.net/images/a1/59/a159dd0a25f0e70c0d72d4bba2c81294.png">
+          </div>
+          <ul class="header-menu">
+            <li class="header-menu__item"><a href="#" class="header-menu__link header-menu__link_active">HOMEPAGE</a>
+            </li>
+            <li class="header-menu__item header-menu__item_sub"><span
+                class="header-menu__link header-menu__link1">ABOUT</span>
+              <span class="submenuToggle"><i class="fa fa-angle-down"></i></span>
+              <ul class="header-submenu">
+                <li class="header-submenu__item"><a class="header-submenu__link" href="#">ABOUT US</a></li>
+                <li class="header-submenu__item"><a class="header-submenu__link" href="#">PRICING PLAN</a></li>
+                <li class="header-submenu__item"><a class="header-submenu__link" href="#">FACILITIES</a></li>
+                <li class="header-submenu__item"><a class="header-submenu__link" href="#">SINGLE EVENT</a></li>
+              </ul>
+            </li>
+            <li class="header-menu__item header-menu__item_sub"><span
+                class="header-menu__link header-menu__link2">CLASSES</span>
+              <span class="submenuToggle2"><i class="fa fa-angle-down"></i></span>
+              <ul class="header-submenu2">
+                <li class="header-submenu2__item"><a class="header-submenu2__link" href="#">OUR CLASSES</a></li>
+                <li class="header-submenu2__item"><a class="header-submenu2__link" href="#">SINGLE CLASSES</a></li>
+              </ul>
+            </li>
+            <li class="header-menu__item header-menu__item_sub"><span
+                class="header-menu__link header-menu__link3">TRAINER</span>
+              <span class="submenuToggle3"><i class="fa fa-angle-down"></i></span>
+              <ul class="header-submenu3">
+                <li class="header-submenu3__item"><a class="header-submenu3__link" href="#">OUR TRAINER</a></li>
+                <li class="header-submenu3__item"><a class="header-submenu3__link" href="#">SINGLE TRAINER</a></li>
+              </ul>
+            </li>
+            <li class="header-menu__item"><a href="#" class="header-menu__link">TESTIMONIALS</a></li>
+            <li class="header-menu__item"><a href="#" class="header-menu__link">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <section class="main-slider">
+      <ul id="header-slider">
+        <li class="first-slide"></li>
+        <li class="two-slide"></li>
+      </ul>
+    </section>
+    <div class="slider-action">
+      <h3 class="slider-action__subtitle">BE STRONGER</h3>
+      <h2 class="slider-action__title">REAL FITNESS</h2>
+      <p class="slider-action__info">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia.</p>
+      <div class="slider-action-btn">
+        <a class="btn btn-yellow" href="#">JOIN WITH US</a>
+      </div>
+    </div>
 
+
+
+
+  </header>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/menu.js"></script>
   <script src="js/adaptive-menu.js"></script>
-  <script src="js/top.js"></script>
+  <!-- <script src="js/top.js"></script> -->
   <script src="js/wow.js"></script>
   <script>
     new WOW().init();
