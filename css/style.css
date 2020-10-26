@@ -16,6 +16,10 @@ img {
   height: auto;
 }
 
+.height {
+  height: 1000px;
+}
+
 /*----------Стили для header----------*/
 
 header {
@@ -306,6 +310,100 @@ header {
   color: #fff;
   /*     padding: 10px; */
 }
+
+/*----------Стили для секции town----------*/
+
+.town {
+  background-color: #1B202D;
+  padding: 100px 15px 0;
+}
+
+.town__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+  padding: 20px 0;
+}
+
+.town-item {
+  width: calc(50% - 30px);
+}
+
+.town-item__subtitle {
+  margin: 0;
+  color: #FFDA0C;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.town-item__title {
+  margin: 0;
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.town-item__info {
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+
+.btn-tranparent {
+  color: #FFDA0C;
+  border: 1px solid #FFDA0C;
+  background: transparent;
+}
+
+.btn-tranparent:hover {
+  color: #1B202D;
+  background: #FFDA0C;
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+
+.town-item__img {}
+
+/*----------Стили для секции counts----------*/
+
+.best {
+  padding: 90px 15px;
+  background-color: #1B202D;
+}
+
+.best__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+.best-box {
+  width: calc(25% - 30px);
+}
+
+.best-box__num,
+.best-box__plus {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 90px;
+  color: #FFDA0C;
+}
+
+.best-box__info {
+  display: block;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
 
 @media screen and (min-width: 993px) {
 
