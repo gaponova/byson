@@ -460,9 +460,6 @@ header {
   padding: 50px 50px 30px;
 }
 
-.fa {}
-
-.fa-hand-peace-o {}
 
 .skills-item__icon {
   font-size: 50px;
@@ -483,6 +480,100 @@ header {
   font-family: "Lato", Sans-serif;
   font-size: 16px;
   line-height: 24px;
+}
+
+/*----------Стили для секции start----------*/
+
+.start {
+  background-color: #1B202D;
+  padding: 100px 15px;
+  text-align: center;
+}
+
+.start__subtitle {
+  margin: 0;
+  color: #FFDA0C;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.start__title {
+  margin: 0;
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.start__desc {
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+
+.start-program {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+.start-program__item {
+  width: calc(33.33% - 30px);
+  margin: 15px;
+  background-color: #3E4559;
+}
+
+.start-program__info {
+  padding: 15px 15px 50px;
+}
+
+.start-program__title {
+  color: #FFDA0C;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.start-program__subtitle {
+  color: #FFFFFF;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.start-program__divider {
+  display: block;
+  width: 10%;
+  height: 2px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.start-program__date {
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5em;
+  color: #D5D5D5;
+  margin-bottom: 10px;
+}
+
+.start-program__time {
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5em;
+  color: #D5D5D5;
+  margin-bottom: 20px;
 }
 
 
