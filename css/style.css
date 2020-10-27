@@ -45,12 +45,12 @@ header {
   background-color: rgba(2%, 5%, 14%, 1);
 }
 
-.navigation {
+.navigation__row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-
+  margin: 0 -15px;
   background-color: rgba(2%, 5%, 14%, 1);
   z-index: 1000;
 
@@ -286,31 +286,6 @@ header {
   transition: 0.3s;
 }
 
-
-/*Кнопка для адаптивного меню*/
-
-.menuToggle {
-  display: none;
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  cursor: pointer;
-}
-
-
-.submenuToggle,
-.submenuToggle2,
-.submenuToggle3 {
-  cursor: pointer;
-  position: absolute;
-  /*     top: 42px;
-    right: 5px; */
-
-  color: #fff;
-  /*     padding: 10px; */
-}
-
 /*----------Стили для секции town----------*/
 
 .town {
@@ -367,7 +342,6 @@ header {
   transition: 0.3s;
 }
 
-.town-item__img {}
 
 /*----------Стили для секции counts----------*/
 
@@ -403,6 +377,116 @@ header {
   font-weight: bold;
   color: #FFFFFF;
 }
+
+
+
+/*Кнопка для адаптивного меню*/
+
+.menuToggle {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+.submenuToggle,
+.submenuToggle2,
+.submenuToggle3 {
+  cursor: pointer;
+  position: absolute;
+  /*     top: 42px;
+    right: 5px; */
+
+  color: #fff;
+  /*     padding: 10px; */
+}
+
+
+/*----------Стили для секции why----------*/
+
+.why {
+  background-color: #1B202D;
+  background-image: linear-gradient(rgba(27, 32, 45, 0.8), rgba(27, 32, 45, 0.8)), url(../img/photo-8-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 100px 15px;
+}
+
+.why__row {
+  text-align: center;
+  margin: 0 -15px;
+}
+
+.why__subtitle {
+  margin: 0;
+  color: #FFDA0C;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.why__title {
+  margin: 0;
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.why__desc {
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+.skills-item {
+  width: calc(33.33% - 30px);
+  margin: 15px;
+  background-color: rgba(27, 32, 45, 0.9);
+  padding: 50px 50px 30px;
+}
+
+.fa {}
+
+.fa-hand-peace-o {}
+
+.skills-item__icon {
+  font-size: 50px;
+  font-weight: 900;
+  fill: #FFDA0C;
+  color: #FFDA0C;
+}
+
+.skills-item__title {
+  font-family: "Work Sans", Sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.skills-item__info {
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+/*----------Адаптив----------*/
 
 
 @media screen and (min-width: 993px) {
