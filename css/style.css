@@ -378,33 +378,6 @@ header {
   color: #FFFFFF;
 }
 
-
-
-/*Кнопка для адаптивного меню*/
-
-.menuToggle {
-  display: none;
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  cursor: pointer;
-}
-
-
-.submenuToggle,
-.submenuToggle2,
-.submenuToggle3 {
-  cursor: pointer;
-  position: absolute;
-  /*     top: 42px;
-    right: 5px; */
-
-  color: #fff;
-  /*     padding: 10px; */
-}
-
-
 /*----------Стили для секции why----------*/
 
 .why {
@@ -413,6 +386,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
   padding: 100px 15px;
 }
 
@@ -575,6 +549,96 @@ header {
   color: #D5D5D5;
   margin-bottom: 20px;
 }
+
+/*----------Стили для секции quote----------*/
+
+.quote {
+  background-color: #1B202D;
+  background-image: linear-gradient(rgba(27, 32, 45, 0.8), rgba(27, 32, 45, 0.8)), url(../img/photo-9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 100px 15px;
+  text-align: center;
+}
+
+.quote__top {}
+
+.quote__icon {
+  font-size: 50px;
+  font-weight: 900;
+  fill: #FFDA0C;
+  color: #FFDA0C;
+  margin-bottom: 20px;
+}
+
+.quote__desc {
+  margin: 0;
+  color: #FFFFFF;
+  font-family: "Lato", Sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
+.quote-author {}
+
+.quote__photo {
+  margin-bottom: 20px;
+}
+
+.quote__ava {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.quote__info {}
+
+.quote__name {
+  display: block;
+  color: #FFFFFF;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 24px;
+}
+
+.quote__status {
+  color: #FFDA0C;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+
+
+
+/*Кнопка для адаптивного меню*/
+
+.menuToggle {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+.submenuToggle,
+.submenuToggle2,
+.submenuToggle3 {
+  cursor: pointer;
+  position: absolute;
+  /*     top: 42px;
+    right: 5px; */
+
+  color: #fff;
+  /*     padding: 10px; */
+}
+
 
 
 /*----------Адаптив----------*/
