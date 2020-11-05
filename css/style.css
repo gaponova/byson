@@ -612,6 +612,169 @@ header {
   font-style: italic;
 }
 
+/*----------Стили для секции price----------*/
+
+.price {
+  background-color: #1B202D;
+  padding: 100px 15px;
+  text-align: center;
+}
+
+.price__subtitle {
+  margin: 0;
+  color: #FFDA0C;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.price__title {
+  margin: 0;
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.price__desc {
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+
+.price-program {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+.price-program__item {
+  width: calc(33.33% - 30px);
+  margin: 15px;
+  background-color: #3E4559;
+  padding: 40px 30px;
+  text-align: left;
+}
+
+.price-program__item_style {
+  background-color: #FFDA0C;
+}
+
+.price-plan__title {
+  margin: 0;
+  color: #FFDA0C;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+.price-plan__title_style {
+  color: #1B202D;
+}
+
+.price-plan__period {
+  margin: 0;
+  color: #FFFFFF;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.price-plan__period_style {
+  color: #1B202D;
+}
+
+.price-plan__divider {
+  display: block;
+  width: 20%;
+  height: 3px;
+  background-color: #FFDA0C;
+  margin-bottom: 20px;
+}
+
+.price-plan__divider_style {
+  background-color: #1B202D;
+}
+
+.price-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.price-list__item {
+  position: relative;
+  color: #D5D5D5;
+  padding-left: 30px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #A2A2A2;
+}
+
+.price-list__item_style {
+  color: #3E4559;
+  border-bottom: 1px solid #1B202D;
+}
+
+.price-list__item:last-child {
+  border: none;
+}
+
+.price-list__item::before {
+  font-family: 'FontAwesome';
+  font-size: 16px;
+  content: "\f00c";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  color: #FFDA0C;
+}
+
+.price-list__item_style::before {
+  color: #1B202D;
+}
+
+.price-list__item_close::before {
+  font-family: 'FontAwesome';
+  font-size: 16px;
+  content: "\f00d";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  color: #FFDA0C;
+}
+
+.price-list__item_close-style::before {
+  color: #1B202D;
+}
+
+.price-btn {
+  text-align: center;
+}
+
+.btn-black {
+  background-color: #1B202D;
+  color: #FFFFFF;
+  border: 1px solid #1B202D;
+}
+
+.btn-black:hover {
+  background-color: #FFFFFF;
+  color: #1B202D;
+  border: 1px solid #fff;
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+
 
 
 
