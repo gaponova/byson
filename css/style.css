@@ -438,7 +438,6 @@ header {
 .skills-item__icon {
   font-size: 50px;
   font-weight: 900;
-  fill: #FFDA0C;
   color: #FFDA0C;
 }
 
@@ -566,7 +565,6 @@ header {
 .quote__icon {
   font-size: 50px;
   font-weight: 900;
-  fill: #FFDA0C;
   color: #FFDA0C;
   margin-bottom: 20px;
 }
@@ -772,15 +770,11 @@ header {
 
 /*----------Стили для секции combat----------*/
 
-.combat {}
-
 .combat__row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-.combat-item {}
 
 .combat-item__wrap {
   width: 80%;
@@ -818,19 +812,15 @@ header {
   background-color: #1B202D;
   opacity: 0.8;
   mix-blend-mode: multiply;
-  z-index: 200;
+  z-index: 100
 }
-
-.fa {}
 
 .fa-paper-plane {
   position: relative;
   font-size: 50px;
   font-weight: 900;
-  fill: #FFDA0C;
   color: #FFDA0C;
-  z-index: 300;
-  margin-bottom: 30px;
+  z-index: 100 margin-bottom: 30px;
 }
 
 .combat__title {
@@ -841,7 +831,7 @@ header {
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 20px;
-  z-index: 300;
+  z-index: 100
 }
 
 .combat__desc {
@@ -850,12 +840,12 @@ header {
   font-family: "Lato", Sans-serif;
   font-size: 16px;
   margin-bottom: 30px;
-  z-index: 300;
+  z-index: 100
 }
 
 .combat-btn {
   position: relative;
-  z-index: 300;
+  z-index: 100
 }
 
 .combat-item_three {
@@ -864,6 +854,74 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+/*----------Стили для секции post----------*/
+
+.post {
+  background-color: #1B202D;
+  padding: 100px 15px;
+  text-align: center;
+}
+
+.post__subtitle {
+  margin: 0;
+  color: #FFDA0C;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.post__title {
+  margin: 0;
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.post__desc {
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+
+.post-program {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+.post-program__item {
+  width: calc(33.33% - 30px);
+  margin: 15px;
+  background-color: #3E4559;
+}
+
+.post-program__info {
+  padding: 30px;
+  text-align: left;
+}
+
+.post-program__title {
+  color: #FFFFFF;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 50px;
+}
+
+.post-program__subtitle {
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 
 
