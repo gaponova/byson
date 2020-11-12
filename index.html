@@ -32,6 +32,25 @@
   <link rel="stylesheet" href="css/style.css">
 
   <title>Byson</title>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('body').append('<div id="toTop">^</div>');
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+          $('#toTop').fadeIn();
+        } else {
+          $('#toTop').fadeOut();
+        }
+      });
+
+      $('#toTop').click(function () {
+        $('body, html').animate({
+          scrollTop: 0
+        }, 400);
+      });
+    });
+  </script>
 </head>
 
 <body>
@@ -40,8 +59,7 @@
       <div class="navigation container">
         <div class="navigation__row">
           <div class="logo">
-            <a href="#"><img src="https://jpegshare.net/images/42/3f/423f5d2b7d1942f05aa8de0135cd1bcc.png" alt="logo"
-                title="Electrician"></a>
+            <a href="#"><img src="img/logo-byson.png" alt="logo" title="Electrician"></a>
           </div>
           <nav>
             <div class="menuToggle"><img src="https://jpegshare.net/images/a1/59/a159dd0a25f0e70c0d72d4bba2c81294.png">
@@ -488,11 +506,16 @@
       </div>
     </div>
   </section>
-
+  <footer>
+    <div class="logo">
+      <a href="#"><img src="img/logo-byson.png" alt="logo" title="Electrician"></a>
+    </div>
+    <p class="copyright">COPYRIGHT © 2020 | DEVELOPE BY GAPONOVA</p>
+  </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/adaptive-menu.js"></script>
-  <!-- <script src="js/top.js"></script> -->
+  <script src="js/top.js"></script>
   <script src="js/counts.js"></script>
   <script src="js/lightslider.js"></script>
   <script src="js/sliders.js"></script>

@@ -933,7 +933,7 @@ header {
   background-size: cover;
   background-position: bottom center;
   background-attachment: fixed;
-  padding: 100px 15px;
+  padding: 150px 15px;
 }
 
 .like::before {
@@ -1013,6 +1013,42 @@ header {
   font-size: 14px;
 }
 
+/*----------Стили для footer----------*/
+
+footer {
+  background-color: #060E24;
+  text-align: center;
+  padding: 50px;
+}
+
+.copyright {
+  color: #D5D5D5;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*----------Кнопка Наверх----------*/
+
+#toTop {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  display: none;
+  background: #FFDA0C;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 26px;
+  line-height: 10px;
+  text-align: center;
+  color: #1B202D;
+  border: 1px solid #1B202D;
+  border-radius: 5px;
+  padding: 5px;
+  z-index: 1000;
+}
 
 /*Кнопка для адаптивного меню*/
 
@@ -1024,7 +1060,6 @@ header {
   transform: translateY(-50%);
   cursor: pointer;
 }
-
 
 .submenuToggle,
 .submenuToggle2,
