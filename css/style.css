@@ -924,7 +924,94 @@ header {
   margin-bottom: 30px;
 }
 
+/*----------Стили для секции like----------*/
 
+.like {
+  position: relative;
+  background-image: url(../img/photo-14-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+  padding: 100px 15px;
+}
+
+.like::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  width: 100%;
+  height: auto;
+  background-color: #1B202D;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
+  z-index: 100;
+}
+
+.like__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -15px;
+}
+
+.like-item {
+  position: relative;
+  width: calc(50% - 30px);
+  margin: 0 15px;
+  z-index: 100;
+}
+
+.like-item__title {
+  margin: 0;
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+
+.like-item__desc {
+  margin: 0;
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 45px;
+}
+
+.like-author {
+  display: flex;
+  align-items: center;
+}
+
+.like-photo__img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 100px;
+  margin-right: 15px;
+}
+
+.like-info {}
+
+.like-info__name {
+  display: block;
+  color: #FFFFFF;
+  font-family: "Lato", Sans-serif;
+  font-size: 14px;
+}
+
+.like-info__status {
+  color: #FFDA0C;
+  font-family: "Lato", Sans-serif;
+  font-size: 14px;
+}
 
 
 /*Кнопка для адаптивного меню*/
