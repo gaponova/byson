@@ -1252,4 +1252,10 @@ footer {
     width: 100%;
     margin-bottom: 20px;
   }
+
+  .combat-item_one,
+  .combat-item_two,
+  .combat-item_three {
+    width: 100%;
+  }
 }
