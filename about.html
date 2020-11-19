@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Mobile specific metas
+      ============================================ -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- favicon
+      ============================================ -->
+  <link rel="shortcut icon" type="images/png" href="images/favicon.png" />
+
+
+  <!-- font-awesome CSS
+      ============================================ -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Google Fonts
+      ============================================ -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- style CSS
+          ============================================ -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/animate.css" />
+  <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Byson</title>
+
+  <!-- JS
+        ============================================ -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('body').append('<div id="toTop">^</div>');
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+          $('#toTop').fadeIn();
+        } else {
+          $('#toTop').fadeOut();
+        }
+      });
+
+      $('#toTop').click(function () {
+        $('body, html').animate({
+          scrollTop: 0
+        }, 400);
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="header-top">
+      <div class="navigation container">
+        <div class="navigation__row">
+          <div class="logo">
+            <a href="#"><img src="img/logo-byson.png" alt="logo" title="Electrician"></a>
+          </div>
+          <nav>
+            <div class="menuToggle"><img src="https://jpegshare.net/images/a1/59/a159dd0a25f0e70c0d72d4bba2c81294.png">
+            </div>
+            <ul class="header-menu">
+              <li class="header-menu__item"><a href="index.html" class="header-menu__link">HOMEPAGE</a>
+              </li>
+              <li class="header-menu__item header-menu__item_sub"><span
+                  class="header-menu__link header-menu__link1 header-menu__link_active">ABOUT</span>
+                <span class="submenuToggle"><i class="fa fa-angle-down"></i></span>
+                <ul class="header-submenu">
+                  <li class="header-submenu__item"><a class="header-submenu__link" href="#">ABOUT US</a></li>
+                  <li class="header-submenu__item"><a class="header-submenu__link" href="#">PRICING PLAN</a></li>
+                  <li class="header-submenu__item"><a class="header-submenu__link" href="#">FACILITIES</a></li>
+                  <li class="header-submenu__item"><a class="header-submenu__link" href="#">SINGLE EVENT</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item header-menu__item_sub"><span
+                  class="header-menu__link header-menu__link2">CLASSES</span>
+                <span class="submenuToggle2"><i class="fa fa-angle-down"></i></span>
+                <ul class="header-submenu2">
+                  <li class="header-submenu2__item"><a class="header-submenu2__link" href="#">OUR CLASSES</a></li>
+                  <li class="header-submenu2__item"><a class="header-submenu2__link" href="#">SINGLE CLASSES</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item header-menu__item_sub"><span
+                  class="header-menu__link header-menu__link3">TRAINER</span>
+                <span class="submenuToggle3"><i class="fa fa-angle-down"></i></span>
+                <ul class="header-submenu3">
+                  <li class="header-submenu3__item"><a class="header-submenu3__link" href="#">OUR TRAINER</a></li>
+                  <li class="header-submenu3__item"><a class="header-submenu3__link" href="#">SINGLE TRAINER</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item"><a href="#" class="header-menu__link">TESTIMONIALS</a></li>
+              <li class="header-menu__item"><a href="#" class="header-menu__link">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="us">
+    <h2 class="us__title">ABOUT US</h2>
+  </section>
+  <section class="exercises">
+    <div class="container">
+      <div class="exercises-info">
+        <h2 class="exercises-info__title">DAILY EXERCISES</h2>
+        <h3 class="exercises-info__subtitle">FOR YOU WARRIORS</h3>
+        <p class="exercises-info__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div>
+        <img class="exercises__img" src="img/photo-17-e1595852808508.jpg" alt="girl">
+      </div>
+      <div class="exercises-content">
+        <h3 class="exercises-content__title">WELCOME TO BYSON FITNESS</h3>
+        <i class="fa fa-trophy" aria-hidden="true"></i>
+        <p class="exercises-content__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore
+          magna aliqua. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Odio pellentesque diam
+          volutpat commodo sed egestas egestas fringilla. Nulla porttitor massa id neque aliquam vestibulum morbi
+          blandit. Sed enim ut sem viverra aliquet eget sit. Euismod elementum nisi quis eleifend quam adipiscing vitae.
+          Ut placerat orci nulla pellentesque dignissim enim sit amet. Ipsum suspendisse ultrices gravida dictum fusce
+          ut placerat orci. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Fusce id velit ut tortor
+          pretium viverra suspendisse potenti. Etiam dignissim diam quis enim lobortis.</p>
+        <p class="exercises-content__info">Etiam non quam lacus suspendisse faucibus interdum. Elit duis tristique
+          sollicitudin nibh sit amet commodo
+          nulla. Eget felis eget nunc lobortis mattis. Consequat nisl vel pretium lectus quam id leo in vitae. Morbi
+          tempus iaculis urna id volutpat lacus laoreet non. Morbi leo urna molestie at elementum. Vitae congue eu
+          consequat ac felis donec et odio. Turpis egestas sed tempus urna et. Sem fringilla ut morbi tincidunt augue
+          interdum velit euismod in. Vulputate eu scelerisque felis imperdiet proin. Nunc id cursus metus aliquam
+          eleifend mi in. Sem nulla pharetra diam sit amet nisl. Tristique senectus et netus et malesuada. Nisi
+          scelerisque eu ultrices vitae auctor eu. Duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat.
+        </p>
+      </div>
+      <div class="exercises-btn">
+        <a class="btn btn-tranparent" href="#">
+          <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+          <span>JOIN US</span>
+        </a>
+      </div>
+      <div class="divider"></div>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="logo">
+      <a href="#"><img src="img/logo-byson.png" alt="logo" title="Electrician"></a>
+    </div>
+    <p class="copyright">COPYRIGHT © 2020 | DEVELOPE BY GAPONOVA</p>
+  </footer>
+
+  <!-- JS
+        ============================================ -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/adaptive-menu.js"></script>
+  <script src="js/top.js"></script>
+  <script src="js/counts.js"></script>
+  <script src="js/lightslider.js"></script>
+  <script src="js/sliders.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+  <script src="js/counters.js"></script>
+  <script src="js/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+</body>
+
+</html>

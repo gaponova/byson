@@ -31,6 +31,7 @@ header {
 }
 
 .container {
+  position: relative;
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
@@ -86,8 +87,11 @@ header {
   transition: 0.3s;
 }
 
-.header-menu__link:hover {
+.header-menu__link_active {
+  color: #FFDA0C;
+}
 
+.header-menu__link:hover {
   color: #FFDA0C;
 }
 
@@ -1029,6 +1033,127 @@ footer {
   font-size: 14px;
   font-weight: 500;
 }
+
+
+/*----------Стили для страницы about----------*/
+
+/*----------Стили для секции us----------*/
+
+.us {
+  position: relative;
+  background-color: #1B202D;
+  background-image: linear-gradient(rgba(27, 32, 45, 0.8), rgba(27, 32, 45, 0.8)), url(../img/photo-13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  padding: 100px 15px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.us::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -40px;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 40px 50px 40px;
+  border-color: transparent transparent#1B202D transparent;
+}
+
+.us__title {
+  color: #FFDA0C;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+
+}
+
+/*----------Стили для секции exercises----------*/
+
+.exercises {
+  position: relative;
+  background-color: #1B202D;
+  text-align: center;
+  padding: 100px 15px;
+}
+
+.exercises-info {
+  margin-bottom: 60px;
+}
+
+.exercises-info__title {
+  margin: 0;
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.exercises-info__subtitle {
+  margin: 0;
+  color: #FFDA0C;
+  font-family: "Lato", Sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.exercises-info__desc {
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+}
+
+.exercises__img {
+  margin-bottom: 50px;
+}
+
+.exercises-content {
+  margin-bottom: 35px;
+}
+
+.exercises-content__title {
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+
+.fa-trophy {
+  font-size: 25px;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.exercises-content__info {
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.divider {
+  display: block;
+  position: absolute;
+  bottom: -99px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #3E4559;
+}
+
+
+
 
 /*----------Кнопка Наверх----------*/
 
