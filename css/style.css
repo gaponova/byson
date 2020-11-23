@@ -530,7 +530,7 @@ header {
 .start-program__divider {
   display: block;
   width: 10%;
-  height: 2px;
+  height: 1px;
   background-color: #fff;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -1004,8 +1004,6 @@ header {
   margin-right: 15px;
 }
 
-.like-info {}
-
 .like-info__name {
   display: block;
   color: #FFFFFF;
@@ -1152,6 +1150,119 @@ footer {
   background-color: #3E4559;
 }
 
+/*----------Стили для секции stronger----------*/
+
+.stronger {
+  position: relative;
+  background-color: #1B202D;
+  padding: 100px 15px 200px;
+}
+
+.stronger__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: 0 -15px;
+}
+
+.stronger-item {
+  position: relative;
+  width: calc(50% - 30px);
+  margin: 0 15px;
+}
+
+.stronger-item__title {
+  margin: 0;
+  color: #FFDA0C;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.stronger-item__subtitle {
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.stronger-item__divider {
+  display: block;
+  width: 7%;
+  height: 1px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.stronger-item__info {
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 60px;
+}
+
+.relation {
+  position: relative;
+  margin: 0 auto;
+}
+
+.video {
+  max-width: 900px;
+}
+
+.relation__ratio {
+  padding-top: 56.25%;
+  height: 0;
+}
+
+.relation iframe {
+  border: none;
+}
+
+.relation__content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #1B202D;
+}
+
+.relation__ratio-16x9 {
+  padding-top: 56.25%;
+}
+
+.relation__ratio-1x1 {
+  padding-top: 100%;
+}
+
+.relation__ratio-4x3 {
+  padding-top: 75%;
+}
+
+.stronger__fly_one {
+  position: absolute;
+  top: 5px;
+  right: 13%;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: "Montserrat", Sans-serif;
+  font-size: 150px;
+  font-weight: bold;
+}
+
+.stronger__fly_two {
+  position: absolute;
+  bottom: 80px;
+  right: 20%;
+  color: #A2A2A2;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 150px;
+  font-weight: bold;
+}
 
 
 
@@ -1264,6 +1375,23 @@ footer {
 
   .fa-angle-down {
     top: 17px;
+  }
+
+  .stronger {
+    padding-bottom: 100px;
+  }
+
+  .stronger-item {
+    width: 100%;
+  }
+
+  .stronger-btn {
+    margin-bottom: 50px;
+  }
+
+  .stronger__fly_one,
+  .stronger__fly_two {
+    display: none;
   }
 
 }
