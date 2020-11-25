@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Mobile specific metas
+      ============================================ -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- favicon
+      ============================================ -->
+  <link rel="shortcut icon" type="images/png" href="images/favicon.png" />
+
+
+  <!-- font-awesome CSS
+      ============================================ -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Google Fonts
+      ============================================ -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- style CSS
+          ============================================ -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/animate.css" />
+  <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Byson</title>
+
+  <!-- JS
+        ============================================ -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('body').append('<div id="toTop">^</div>');
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+          $('#toTop').fadeIn();
+        } else {
+          $('#toTop').fadeOut();
+        }
+      });
+
+      $('#toTop').click(function () {
+        $('body, html').animate({
+          scrollTop: 0
+        }, 400);
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="header-top">
+      <div class="navigation container">
+        <div class="navigation__row">
+          <div class="logo">
+            <a href="#"><img src="img/logo-byson.png" alt="logo" title="Electrician"></a>
+          </div>
+          <nav>
+            <div class="menuToggle"><img src="https://jpegshare.net/images/a1/59/a159dd0a25f0e70c0d72d4bba2c81294.png">
+            </div>
+            <ul class="header-menu">
+              <li class="header-menu__item"><a href="index.html" class="header-menu__link">HOMEPAGE</a>
+              </li>
+              <li class="header-menu__item header-menu__item_sub"><span
+                  class="header-menu__link header-menu__link1 header-menu__link_active">ABOUT</span>
+                <span class="submenuToggle"><i class="fa fa-angle-down"></i></span>
+                <ul class="header-submenu">
+                  <li class="header-submenu__item"><a class="header-submenu__link" href="about.html">ABOUT US</a></li>
+                  <li class="header-submenu__item"><a class="header-submenu__link" href="#">PRICING PLAN</a>
+                  </li>
+                  <li class="header-submenu__item"><a class="header-submenu__link" href="#">FACILITIES</a></li>
+                  <li class="header-submenu__item"><a class="header-submenu__link" href="#">SINGLE EVENT</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item header-menu__item_sub"><span
+                  class="header-menu__link header-menu__link2">CLASSES</span>
+                <span class="submenuToggle2"><i class="fa fa-angle-down"></i></span>
+                <ul class="header-submenu2">
+                  <li class="header-submenu2__item"><a class="header-submenu2__link" href="#">OUR CLASSES</a></li>
+                  <li class="header-submenu2__item"><a class="header-submenu2__link" href="#">SINGLE CLASSES</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item header-menu__item_sub"><span
+                  class="header-menu__link header-menu__link3">TRAINER</span>
+                <span class="submenuToggle3"><i class="fa fa-angle-down"></i></span>
+                <ul class="header-submenu3">
+                  <li class="header-submenu3__item"><a class="header-submenu3__link" href="#">OUR TRAINER</a></li>
+                  <li class="header-submenu3__item"><a class="header-submenu3__link" href="#">SINGLE TRAINER</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item"><a href="#" class="header-menu__link">TESTIMONIALS</a></li>
+              <li class="header-menu__item"><a href="#" class="header-menu__link">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="plan us">
+    <h2 class="plan__title us__title">PRICING PLAN</h2>
+  </section>
+  <section class="price">
+    <div class="container">
+      <div class="price-info">
+        <h2 class="price__title">BEST PRICE</h2>
+        <h3 class="price__subtitle">FOR YOUR FITNESS PROGRESS</h3>
+        <p class="price__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="price-program">
+        <div class="price-program__item">
+          <div class="price-plan">
+            <h3 class="price-plan__title">BEGINNER PLAN</h3>
+            <h2 class="price-plan__period">$50 / 1 MONTH</h2>
+            <span class="price-plan__divider"></span>
+          </div>
+          <ul class="price-list">
+            <li class="price-list__item">Classes 2x/week</li>
+            <li class="price-list__item">Open Gym Monday-Friday</li>
+            <li class="price-list__item">Yoga Relax Classes</li>
+            <li class="price-list__item">1Free Personal Trainer</li>
+            <li class="price-list__item price-list__item_close">Free Drinking Package</li>
+            <li class="price-list__item price-list__item_close">Free Drinking Package</li>
+          </ul>
+          <div class="price-btn">
+            <a class="btn btn-tranparent" href="#">
+              <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              <span>GET STARTED</span>
+            </a>
+          </div>
+        </div>
+        <div class="price-program__item price-program__item_style">
+          <div class="price-plan">
+            <h3 class="price-plan__title price-plan__title_style">PREMIUM PLAN</h3>
+            <h2 class="price-plan__period price-plan__period_style">$90 / 2 MONTH</h2>
+            <span class="price-plan__divider price-plan__divider_style"></span>
+          </div>
+          <ul class="price-list">
+            <li class="price-list__item price-list__item_style">Classes 2x/week</li>
+            <li class="price-list__item price-list__item_style">Open Gym Monday-Friday</li>
+            <li class="price-list__item price-list__item_style">Yoga Relax Classes</li>
+            <li class="price-list__item price-list__item_style">1Free Personal Trainer</li>
+            <li class="price-list__item price-list__item_style price-list__item_close price-list__item_close-style">Free
+              Drinking Package</li>
+            <li class="price-list__item price-list__item_style price-list__item_close price-list__item_close-style">Free
+              Drinking Package</li>
+          </ul>
+          <div class="price-btn">
+            <a class="btn btn-black" href="#">
+              <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              <span>GET STARTED</span>
+            </a>
+          </div>
+        </div>
+        <div class="price-program__item">
+          <div class="price-plan">
+            <h3 class="price-plan__title">ULTIMATED PLAN</h3>
+            <h2 class="price-plan__period">$120 / 3 MONTH</h2>
+            <span class="price-plan__divider"></span>
+          </div>
+          <ul class="price-list">
+            <li class="price-list__item">Classes 2x/week</li>
+            <li class="price-list__item">Open Gym Monday-Friday</li>
+            <li class="price-list__item">Yoga Relax Classes</li>
+            <li class="price-list__item">1Free Personal Trainer</li>
+            <li class="price-list__item price-list__item_close">Free Drinking Package</li>
+            <li class="price-list__item price-list__item_close">Free Drinking Package</li>
+          </ul>
+          <div class="price-btn">
+            <a class="btn btn-tranparent" href="#">
+              <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+              <span>GET STARTED</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="ask">
+    <div class="container">
+      <div class="ask__row">
+        <h2 class="ask__title">FREQUENTLY ASKED QUESTION</h2>
+        <h3 class="ask__subtitle">WE GIVE THE BEST</h3>
+        <p class="ask__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore
+          magna aliqua.</p>
+        <div class="faq">
+          <div class="faq-one">
+            <div class="faq-item">
+              <input class="faq-input" type="checkbox" id="faq_1">
+              <label class="faq-title" for="faq_1">
+                Award-winning support
+                <i class="fa fa-caret-down"></i>
+                <i class="fa fa-caret-up"></i>
+              </label>
+              <div class="faq-text">
+                <p class="answer-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                  fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                  metus aliquam eleifend.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <input class="faq-input" type="checkbox" id="faq_2">
+              <label class="faq-title" for="faq_2">
+                The vision for our mission
+                <i class="fa fa-caret-down"></i>
+                <i class="fa fa-caret-up"></i>
+              </label>
+              <div class="faq-text">
+                <p class="answer-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                  fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                  metus aliquam eleifend.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <input class="faq-input" type="checkbox" id="faq_3">
+              <label class="faq-title" for="faq_3">
+                All in one place
+                <i class="fa fa-caret-down"></i>
+                <i class="fa fa-caret-up"></i>
+              </label>
+              <div class="faq-text">
+                <p class="answer-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                  fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                  metus aliquam eleifend.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-two">
+            <div class="faq-item">
+              <input class="faq-input" type="checkbox" id="faq_4">
+              <label class="faq-title" for="faq_4">
+                Award-winning support
+                <i class="fa fa-caret-down"></i>
+                <i class="fa fa-caret-up"></i>
+              </label>
+              <div class="faq-text">
+                <p class="answer-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                  fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                  metus aliquam eleifend.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <input class="faq-input" type="checkbox" id="faq_5">
+              <label class="faq-title" for="faq_5">
+                The vision for our mission
+                <i class="fa fa-caret-down"></i>
+                <i class="fa fa-caret-up"></i>
+              </label>
+              <div class="faq-text">
+                <p class="answer-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                  fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                  metus aliquam eleifend.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <input class="faq-input" type="checkbox" id="faq_6">
+              <label class="faq-title" for="faq_6">
+                All in one place
+                <i class="fa fa-caret-down"></i>
+                <i class="fa fa-caret-up"></i>
+              </label>
+              <div class="faq-text">
+                <p class="answer-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                  fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                  metus aliquam eleifend.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="logo">
+      <a href="#"><img src="img/logo-byson.png" alt="logo" title="Electrician"></a>
+    </div>
+    <p class="copyright">COPYRIGHT © 2020 | DEVELOPE BY GAPONOVA</p>
+  </footer>
+
+  <!-- JS
+        ============================================ -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/adaptive-menu.js"></script>
+  <script src="js/top.js"></script>
+  <script src="js/counts.js"></script>
+  <script src="js/lightslider.js"></script>
+  <script src="js/sliders.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+  <script src="js/counters.js"></script>
+  <script src="js/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+</body>
+
+</html>

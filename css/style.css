@@ -642,6 +642,10 @@ header {
   margin-bottom: 80px;
 }
 
+.price-info .price__desc {
+  margin-bottom: 40px;
+}
+
 .price-program {
   display: flex;
   flex-wrap: wrap;
@@ -1264,6 +1268,130 @@ footer {
   font-weight: bold;
 }
 
+/*----------Стили для страницы pricing----------*/
+
+/*----------Стили для секции ask----------*/
+
+.ask {
+  background-color: #1B202D;
+  background-image: linear-gradient(rgba(27, 32, 45, 0.8), rgba(27, 32, 45, 0.8)), url(../img/photo-8-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 100px 15px;
+}
+
+.ask__row {
+  text-align: center;
+  margin: 0 -15px;
+}
+
+.ask__subtitle {
+  margin: 0;
+  color: #FFDA0C;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.ask__title {
+  margin: 0;
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ask__desc {
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+
+/*----------Стили для faq----------*/
+
+.faq {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.faq-one,
+.faq-two {
+  width: calc(50% - 30px);
+}
+
+.faq-item {
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  background-color: #1B202D;
+  border-bottom: 1px solid #101626;
+  border-radius: 5px;
+  margin: 0 15px;
+  transition: 0.5s;
+}
+
+.faq-item:hover {
+  background-color: #060E24;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.14);
+}
+
+.faq-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #FFDA0C;
+  padding: 25px 30px;
+  cursor: pointer;
+}
+
+.faq-title:hover {
+  color: #fff;
+}
+
+.faq-input {
+  display: none;
+}
+
+.faq-text {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #3E4559;
+  color: #D5D5D5;
+  padding: 0 30px;
+  transition: max-height 0.3s;
+}
+
+.faq-title .fa-caret-up {
+  display: none;
+}
+
+.faq-title .fa-caret-down,
+.faq-title .fa-caret-up {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.faq-input:checked~.faq-text {
+  max-height: 10rem;
+}
+
+.faq-input:checked~.faq-title {
+  background-color: #060E24;
+}
+
+.faq-input:checked~.faq-title .fa-caret-down {
+  display: none;
+}
+
+.faq-input:checked~.faq-title .fa-caret-up {
+  display: block;
+}
 
 
 /*----------Кнопка Наверх----------*/
