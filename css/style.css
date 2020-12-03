@@ -1440,6 +1440,115 @@ footer {
   margin: 2px 5px 3px;
 }
 
+/*----------Стили для страницы single----------*/
+
+/*----------Стили для секции work----------*/
+
+.work {
+  background-color: #1B202D;
+  padding: 100px 15px 30px;
+}
+
+.work__title {
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.work-author {
+  display: flex;
+  align-items: center;
+}
+
+.work-photo__img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 100px;
+  margin-right: 15px;
+}
+
+.work-info__name {
+  color: #FFDA0C;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.work-info__status {
+  display: block;
+  color: #FFFFFF;
+  font-family: "Lato", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/*----------Стили для секции make----------*/
+
+.make {
+  background-color: #1B202D;
+  padding: 0 15px 100px;
+}
+
+.make__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.make-item {
+  width: calc(50% - 30px);
+  margin: 0 15px;
+}
+
+.make-item__style {
+  margin: 0;
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.make-item__img {
+  margin-bottom: 15px;
+}
+
+.make-item__info {
+  margin: 0;
+  color: #D5D5D5;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.make-list {
+  margin: 0;
+  padding: 0;
+  color: #D5D5D5;
+  list-style: none;
+}
+
+.make-list__item {
+  position: relative;
+  font-size: 16px;
+  padding: 5px 0;
+  padding-left: 25px;
+}
+
+.make-list__item::before {
+  font-family: 'FontAwesome';
+  font-size: 16px;
+  content: "\f00c";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  color: #D5D5D5;
+}
 
 /*----------Кнопка Наверх----------*/
 
